@@ -11,5 +11,6 @@ const Demo = dynamic(() => import("~/components/Demo"), {
 export default function App(
   { title }: { title?: string } = { title: process.env.NEXT_PUBLIC_FRAME_NAME || "Frames v2 Demo" }
 ) {
+  // return <>hello world!!</>
   return <Demo title={title} />;
 }
